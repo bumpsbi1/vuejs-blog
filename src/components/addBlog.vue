@@ -56,7 +56,7 @@ export default {
   methods: {
     post: function() {
       this.$http
-        .post("https://vuejs-blog-10489.firebaseio.com/posts.json", this.blog)
+        .post("ENTER YOUR OWN FIREBASE URL", this.blog)
         .then(function(data) {
           console.log(data);
           this.submitted = true;
